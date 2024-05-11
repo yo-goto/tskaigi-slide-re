@@ -1106,9 +1106,13 @@ $$
 
 </v-click>
 
+<v-clicks>
+
 反射律は、自己言及的な関係であり、任意の型 $S$ に対して $S$ は自身の部分型であるということを示す
 
 推移律は、部分型関係が推移的であること、つまり $A <: B$ かつ $B <: C$ なら $A <: C$ であり、$A$ は $B$ を介して $C$ の部分型であることが推移的に分かる
+
+</v-clicks>
 
 ::right::
 
@@ -1485,6 +1489,8 @@ layout: two-cols-mine
 
 ::left::
 
+<v-clicks>
+
 圏とは簡単に言えば複数のモノの集まりとそのモノ同士の関係を表す矢印からなる、ある種のシステムです。
 
 <div class="text-sm">
@@ -1504,13 +1510,19 @@ layout: two-cols-mine
 
 </div>
 
+</v-clicks>
+
 ::right::
+
+<v-clicks>
 
 <div>
   <img src="/public/category/img_category-image.png" />
 </div>
 
 あるシステムを考えるとき、そのシステムがこの圏の公理を満たしてさえいればそれは圏であると言うことができるので、様々なものが圏という構造であるとみなせます (あるいは圏を構築できます)
+
+</v-clicks>
 
 ---
 layout: two-cols-mine
@@ -1519,6 +1531,8 @@ layout: two-cols-mine
 ::left::
 
 ## 順序集合の圏
+
+<v-clicks>
 
 $$
 a \le b \Leftrightarrow a \rightarrow b
@@ -1543,7 +1557,11 @@ graph LR
   <img src="/public/category/img_chain-category.png" class="rounded-md" />
 </div>
 
+</v-clicks>
+
 ::right::
+
+<v-clicks>
 
 ## 型と部分型関係の圏
 
@@ -1566,6 +1584,8 @@ UN --> UN
 E --> E
 U --> U
 ```
+
+</v-clicks>
 
 ---
 title: 調査資料
