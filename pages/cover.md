@@ -7,6 +7,8 @@ layout: cover
 
 TypeScriptの部分型関係がなす代数的構造による型のメンタルモデル
 
+👉 https://yo-goto.github.io/tskaigi-slide-re/
+
 <div class="absolute bottom-15 left-15">
   <span class="font-bold text-2xl">
     TSKaigi 2024
